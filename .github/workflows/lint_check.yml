@@ -4,9 +4,10 @@ env:
   RUST_VERSION: 1.70.0
 
 jobs:
-  clippy_check:
+  lint_check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Run Clippy
         run: cargo check
+  
