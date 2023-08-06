@@ -1,8 +1,5 @@
 on: [push]
 
-env:
-  RUST_VERSION: 1.70.0
-
 jobs:
   lint_check:
     runs-on: ubuntu-latest
